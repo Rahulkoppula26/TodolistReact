@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-family:sans-serif;
+}
+.container {
+  background:linear-gradient(135deg,rgb(102, 60, 103),rgb(62, 50, 123));
+}
+.task{
+  height: 40px;
+  width: 300px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  font-size:large;
+  color: rgb(255, 255, 255);
+  border: 2px solid white;
+  padding: 10px;
+  /* overflow-y: scroll; */
+
+}
+.taskitem {
+  margin: 5px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+*{
+  color: rgb(255, 255, 255);
+}
+.todo-input{
+  display: flex;
+}
+.icon{
+  position: relative;
+  right: 0%;
+}
+.inner-container{
+  overflow-y:scroll;
+}
